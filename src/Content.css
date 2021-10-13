@@ -1,0 +1,63 @@
+.Content{
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.Content input{
+    height: 1.4rem;
+    border-radius: 5px;
+    width: 20rem;
+}
+
+h1{
+    margin-bottom: 2px;
+}
+.Content-Greet{
+    font-size: 1rem;
+
+}
+
+.Content-Search{
+    max-width:400px;
+
+}
+
+.input-icons i {
+    position: absolute;
+    margin: 0.7rem 0 0 1rem;
+    font-size: 1.5rem;
+}
+  
+.input-icons {
+    width: 100%;
+    /* margin-bottom: 10px; */
+
+}
+  
+.icon {
+    padding: 10px;
+    min-width: 10px;
+}
+  
+.input-field {
+    width: 100%;
+    padding: 10px;
+
+
+}
+.input-icons input{
+    border-radius: 1rem;
+}
+.input-field:hover{
+    cursor: pointer;
+
+}
+.input-icons i:hover{
+    cursor: pointer;
+}
+
+
+input[type ='text']::placeholder{
+    padding-left: 2.5rem;
+}

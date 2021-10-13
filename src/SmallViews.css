@@ -1,0 +1,137 @@
+.SmallViews{
+    margin: 1rem;
+
+    line-height: 1.8rem;
+
+}
+
+
+
+
+.SmallViews-Content{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.SmallViews-Text{
+    font-size: 0.7rem;
+
+    color: indigo;
+}
+
+.SmallViews-Price{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.SmallViews-Combo{
+    margin:1rem;
+}
+
+.SmallViews-Combo1{
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    background-color: #FFEFE2;
+    border-radius: 10px 0 0 10px;
+}
+.SmallViews-Combo11{
+    background-color: #FFEFE2;
+    border-radius: 0 10px 10px 0;
+
+}
+.SmallViews-Combo2{
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    background-color: #F0FCF0;
+    border-radius: 10px 0 0 10px;
+}
+.SmallViews-Combo22{
+    background-color: #F0FCF0;
+    border-radius: 0 10px 10px 0;
+
+}
+.SmallViews-Combo3{
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    background-color: #E6F5FA;
+    border-radius: 10px 0 0 10px;
+}
+.SmallViews-Combo33{
+    background-color: #E6F5FA;
+    border-radius: 0 10px 10px 0;
+
+}
+.SmallViews-Combo4{
+    padding: 1.5rem 0 1.5rem 1.5rem;
+    background-color: #F5F6FA;
+    border-radius: 10px 0 0 10px;
+}
+.SmallViews-Combo44{
+    background-color: #F5F6FA;
+    border-radius: 0 10px 10px 0;
+
+}
+.SmallViews-MidMargin{
+    margin-right: 2rem;
+}
+/* percentage circle */
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .single-chart {
+    padding-top: 1.5rem;
+    width: 27%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    max-width: 80%;
+    max-height: 70px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.orange .circle {
+    stroke: #000;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #000;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #000;
+  }
+  
+  .percentage {
+    fill: #666;
+    font-family: sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
+
+
+
+
+
+  

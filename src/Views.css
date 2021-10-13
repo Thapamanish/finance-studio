@@ -1,0 +1,27 @@
+.Views{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    margin: 2rem;
+
+    background-color: #F9F8F4;
+
+}
+
+.Views-money{
+    font-size: 2rem;
+}
+.Views-Component{
+    margin-top: 1rem
+}
+
+.Views-Icon{
+    background-color: #E4E1D2;
+    color: black;
+    /* font-size: 1.5rem; */
+    border-radius: 50%;
+    padding: 7px 7px 4px;
+    margin-top: 10rem
+
+}
